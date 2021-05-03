@@ -1,0 +1,62 @@
+[
+    {
+        "name" : "Hamburgers",
+        "weight" : "1.0"
+    },
+    {
+        "name" : "Lemon Chicken",
+        "weight" : "1.0"
+    },
+    {
+        "name" : "Chicken Ramen",
+        "weight" : "1.0"
+    },
+    {
+        "name" : "Fajitas",
+        "weight" : "1.0"
+    },
+    {
+        "name" : "Tacos",
+        "weight" : "1.0"
+    },
+    {
+        "name" : "Mini Hotdogs",
+        "weight" : "1.0"
+    },
+    {
+        "name" : "Steak",
+        "weight" : "1.0"
+    },
+    {
+        "name" : "Chicken Cutlets",
+        "weight" : "1.0"
+    },
+    {
+        "name" : "Spaghetti & Meatballs",
+        "weight" : "1.0"
+    },
+    {
+        "name" : "Chicken Parm",
+        "weight" : "1.0"
+    },
+    {
+        "name" : "Roast Beef",
+        "weight" : "1.0"
+    },
+    {
+        "name" : "Peppers and Onions",
+        "weight" : "1.0"
+    },
+    {
+        "name" : "Chef Salad",
+        "weight" : "1.0"
+    },
+    {
+        "name" : "South West Chicken Salad",
+        "weight" : "1.0"
+    },
+    {
+        "name" : "Peppers and Rice",
+        "weight" : "0.25"
+    }
+]

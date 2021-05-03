@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0493A2F262F9DEF00CFEE8E /* WhatsForDinnerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0493A2E262F9DEF00CFEE8E /* WhatsForDinnerApp.swift */; };
+		C0493A31262F9DEF00CFEE8E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0493A30262F9DEF00CFEE8E /* ContentView.swift */; };
+		C0493A33262F9DF100CFEE8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0493A32262F9DF100CFEE8E /* Assets.xcassets */; };
+		C0493A36262F9DF100CFEE8E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0493A35262F9DF100CFEE8E /* Preview Assets.xcassets */; };
+		C0493A3B262F9DF200CFEE8E /* WhatsForDinner WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C0493A3A262F9DF200CFEE8E /* WhatsForDinner WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C0493A40262F9DF200CFEE8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0493A3F262F9DF200CFEE8E /* Assets.xcassets */; };
+		C0493A47262F9DF200CFEE8E /* WhatsForDinner WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C0493A46262F9DF200CFEE8E /* WhatsForDinner WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C0493A4C262F9DF200CFEE8E /* WhatsForDinnerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0493A4B262F9DF200CFEE8E /* WhatsForDinnerApp.swift */; };
+		C0493A4E262F9DF200CFEE8E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0493A4D262F9DF200CFEE8E /* ContentView.swift */; };
+		C0493A50262F9DF200CFEE8E /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0493A4F262F9DF200CFEE8E /* NotificationController.swift */; };
+		C0493A52262F9DF300CFEE8E /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0493A51262F9DF300CFEE8E /* NotificationView.swift */; };
+		C0493A54262F9DF300CFEE8E /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0493A53262F9DF300CFEE8E /* ComplicationController.swift */; };
+		C0493A56262F9DF300CFEE8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0493A55262F9DF300CFEE8E /* Assets.xcassets */; };
+		C0493A59262F9DF300CFEE8E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0493A58262F9DF300CFEE8E /* Preview Assets.xcassets */; };
+		C0493A6E262F9E6800CFEE8E /* Data.json in Resources */ = {isa = PBXBuildFile; fileRef = C0493A6D262F9E6800CFEE8E /* Data.json */; };
+		C0493A6F262F9E6800CFEE8E /* Data.json in Resources */ = {isa = PBXBuildFile; fileRef = C0493A6D262F9E6800CFEE8E /* Data.json */; };
+		C0493A77262FA78800CFEE8E /* DinerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0493A76262FA78800CFEE8E /* DinerData.swift */; };
+		C0493A78262FA78800CFEE8E /* DinerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0493A76262FA78800CFEE8E /* DinerData.swift */; };
+		C0493A7D262FA7DF00CFEE8E /* DinnerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0493A7C262FA7DF00CFEE8E /* DinnerModel.swift */; };
+		C0493A7E262FA7DF00CFEE8E /* DinnerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0493A7C262FA7DF00CFEE8E /* DinnerModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0493A3C262F9DF200CFEE8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0493A23262F9DEF00CFEE8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0493A39262F9DF200CFEE8E;
+			remoteInfo = "WhatsForDinner WatchKit App";
+		};
+		C0493A48262F9DF200CFEE8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0493A23262F9DEF00CFEE8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0493A45262F9DF200CFEE8E;
+			remoteInfo = "WhatsForDinner WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C0493A61262F9DF300CFEE8E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C0493A47262F9DF200CFEE8E /* WhatsForDinner WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0493A65262F9DF300CFEE8E /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				C0493A3B262F9DF200CFEE8E /* WhatsForDinner WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C0493A2B262F9DEF00CFEE8E /* WhatsForDinner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatsForDinner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0493A2E262F9DEF00CFEE8E /* WhatsForDinnerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsForDinnerApp.swift; sourceTree = "<group>"; };
+		C0493A30262F9DEF00CFEE8E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C0493A32262F9DF100CFEE8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0493A35262F9DF100CFEE8E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C0493A37262F9DF100CFEE8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0493A3A262F9DF200CFEE8E /* WhatsForDinner WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WhatsForDinner WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0493A3F262F9DF200CFEE8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0493A41262F9DF200CFEE8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0493A46262F9DF200CFEE8E /* WhatsForDinner WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WhatsForDinner WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0493A4B262F9DF200CFEE8E /* WhatsForDinnerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsForDinnerApp.swift; sourceTree = "<group>"; };
+		C0493A4D262F9DF200CFEE8E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C0493A4F262F9DF200CFEE8E /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		C0493A51262F9DF300CFEE8E /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		C0493A53262F9DF300CFEE8E /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		C0493A55262F9DF300CFEE8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0493A58262F9DF300CFEE8E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C0493A5A262F9DF300CFEE8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0493A5B262F9DF300CFEE8E /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		C0493A6D262F9E6800CFEE8E /* Data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Data.json; sourceTree = "<group>"; };
+		C0493A76262FA78800CFEE8E /* DinerData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinerData.swift; sourceTree = "<group>"; };
+		C0493A7C262FA7DF00CFEE8E /* DinnerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinnerModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0493A28262F9DEF00CFEE8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0493A43262F9DF200CFEE8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0493A22262F9DEF00CFEE8E = {
+			isa = PBXGroup;
+			children = (
+				C0493A6C262F9E0D00CFEE8E /* Data */,
+				C0493A2D262F9DEF00CFEE8E /* WhatsForDinner */,
+				C0493A3E262F9DF200CFEE8E /* WhatsForDinner WatchKit App */,
+				C0493A4A262F9DF200CFEE8E /* WhatsForDinner WatchKit Extension */,
+				C0493A2C262F9DEF00CFEE8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0493A2C262F9DEF00CFEE8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0493A2B262F9DEF00CFEE8E /* WhatsForDinner.app */,
+				C0493A3A262F9DF200CFEE8E /* WhatsForDinner WatchKit App.app */,
+				C0493A46262F9DF200CFEE8E /* WhatsForDinner WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0493A2D262F9DEF00CFEE8E /* WhatsForDinner */ = {
+			isa = PBXGroup;
+			children = (
+				C0493A2E262F9DEF00CFEE8E /* WhatsForDinnerApp.swift */,
+				C0493A30262F9DEF00CFEE8E /* ContentView.swift */,
+				C0493A32262F9DF100CFEE8E /* Assets.xcassets */,
+				C0493A37262F9DF100CFEE8E /* Info.plist */,
+				C0493A34262F9DF100CFEE8E /* Preview Content */,
+			);
+			path = WhatsForDinner;
+			sourceTree = "<group>";
+		};
+		C0493A34262F9DF100CFEE8E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C0493A35262F9DF100CFEE8E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C0493A3E262F9DF200CFEE8E /* WhatsForDinner WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				C0493A3F262F9DF200CFEE8E /* Assets.xcassets */,
+				C0493A41262F9DF200CFEE8E /* Info.plist */,
+			);
+			path = "WhatsForDinner WatchKit App";
+			sourceTree = "<group>";
+		};
+		C0493A4A262F9DF200CFEE8E /* WhatsForDinner WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C0493A4B262F9DF200CFEE8E /* WhatsForDinnerApp.swift */,
+				C0493A4D262F9DF200CFEE8E /* ContentView.swift */,
+				C0493A4F262F9DF200CFEE8E /* NotificationController.swift */,
+				C0493A51262F9DF300CFEE8E /* NotificationView.swift */,
+				C0493A53262F9DF300CFEE8E /* ComplicationController.swift */,
+				C0493A55262F9DF300CFEE8E /* Assets.xcassets */,
+				C0493A5A262F9DF300CFEE8E /* Info.plist */,
+				C0493A5B262F9DF300CFEE8E /* PushNotificationPayload.apns */,
+				C0493A57262F9DF300CFEE8E /* Preview Content */,
+			);
+			path = "WhatsForDinner WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		C0493A57262F9DF300CFEE8E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C0493A58262F9DF300CFEE8E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C0493A6C262F9E0D00CFEE8E /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				C0493A6D262F9E6800CFEE8E /* Data.json */,
+				C0493A76262FA78800CFEE8E /* DinerData.swift */,
+				C0493A7C262FA7DF00CFEE8E /* DinnerModel.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0493A2A262F9DEF00CFEE8E /* WhatsForDinner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0493A66262F9DF300CFEE8E /* Build configuration list for PBXNativeTarget "WhatsForDinner" */;
+			buildPhases = (
+				C0493A27262F9DEF00CFEE8E /* Sources */,
+				C0493A28262F9DEF00CFEE8E /* Frameworks */,
+				C0493A29262F9DEF00CFEE8E /* Resources */,
+				C0493A65262F9DF300CFEE8E /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0493A3D262F9DF200CFEE8E /* PBXTargetDependency */,
+			);
+			name = WhatsForDinner;
+			productName = WhatsForDinner;
+			productReference = C0493A2B262F9DEF00CFEE8E /* WhatsForDinner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0493A39262F9DF200CFEE8E /* WhatsForDinner WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0493A62262F9DF300CFEE8E /* Build configuration list for PBXNativeTarget "WhatsForDinner WatchKit App" */;
+			buildPhases = (
+				C0493A38262F9DF200CFEE8E /* Resources */,
+				C0493A61262F9DF300CFEE8E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0493A49262F9DF200CFEE8E /* PBXTargetDependency */,
+			);
+			name = "WhatsForDinner WatchKit App";
+			productName = "WhatsForDinner WatchKit App";
+			productReference = C0493A3A262F9DF200CFEE8E /* WhatsForDinner WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		C0493A45262F9DF200CFEE8E /* WhatsForDinner WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0493A5E262F9DF300CFEE8E /* Build configuration list for PBXNativeTarget "WhatsForDinner WatchKit Extension" */;
+			buildPhases = (
+				C0493A42262F9DF200CFEE8E /* Sources */,
+				C0493A43262F9DF200CFEE8E /* Frameworks */,
+				C0493A44262F9DF200CFEE8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WhatsForDinner WatchKit Extension";
+			productName = "WhatsForDinner WatchKit Extension";
+			productReference = C0493A46262F9DF200CFEE8E /* WhatsForDinner WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0493A23262F9DEF00CFEE8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					C0493A2A262F9DEF00CFEE8E = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					C0493A39262F9DF200CFEE8E = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					C0493A45262F9DF200CFEE8E = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = C0493A26262F9DEF00CFEE8E /* Build configuration list for PBXProject "WhatsForDinner" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0493A22262F9DEF00CFEE8E;
+			productRefGroup = C0493A2C262F9DEF00CFEE8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0493A2A262F9DEF00CFEE8E /* WhatsForDinner */,
+				C0493A39262F9DF200CFEE8E /* WhatsForDinner WatchKit App */,
+				C0493A45262F9DF200CFEE8E /* WhatsForDinner WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0493A29262F9DEF00CFEE8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0493A36262F9DF100CFEE8E /* Preview Assets.xcassets in Resources */,
+				C0493A33262F9DF100CFEE8E /* Assets.xcassets in Resources */,
+				C0493A6E262F9E6800CFEE8E /* Data.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0493A38262F9DF200CFEE8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0493A40262F9DF200CFEE8E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0493A44262F9DF200CFEE8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0493A59262F9DF300CFEE8E /* Preview Assets.xcassets in Resources */,
+				C0493A56262F9DF300CFEE8E /* Assets.xcassets in Resources */,
+				C0493A6F262F9E6800CFEE8E /* Data.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0493A27262F9DEF00CFEE8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0493A31262F9DEF00CFEE8E /* ContentView.swift in Sources */,
+				C0493A7D262FA7DF00CFEE8E /* DinnerModel.swift in Sources */,
+				C0493A2F262F9DEF00CFEE8E /* WhatsForDinnerApp.swift in Sources */,
+				C0493A77262FA78800CFEE8E /* DinerData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0493A42262F9DF200CFEE8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0493A50262F9DF200CFEE8E /* NotificationController.swift in Sources */,
+				C0493A4E262F9DF200CFEE8E /* ContentView.swift in Sources */,
+				C0493A7E262FA7DF00CFEE8E /* DinnerModel.swift in Sources */,
+				C0493A78262FA78800CFEE8E /* DinerData.swift in Sources */,
+				C0493A54262F9DF300CFEE8E /* ComplicationController.swift in Sources */,
+				C0493A4C262F9DF200CFEE8E /* WhatsForDinnerApp.swift in Sources */,
+				C0493A52262F9DF300CFEE8E /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0493A3D262F9DF200CFEE8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0493A39262F9DF200CFEE8E /* WhatsForDinner WatchKit App */;
+			targetProxy = C0493A3C262F9DF200CFEE8E /* PBXContainerItemProxy */;
+		};
+		C0493A49262F9DF200CFEE8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0493A45262F9DF200CFEE8E /* WhatsForDinner WatchKit Extension */;
+			targetProxy = C0493A48262F9DF200CFEE8E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C0493A5C262F9DF300CFEE8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C0493A5D262F9DF300CFEE8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C0493A5F262F9DF300CFEE8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"WhatsForDinner WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 7N92RGT66J;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "WhatsForDinner WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NikonInstruments.WhatsForDinner.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		C0493A60262F9DF300CFEE8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"WhatsForDinner WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 7N92RGT66J;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "WhatsForDinner WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NikonInstruments.WhatsForDinner.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		C0493A63262F9DF300CFEE8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7N92RGT66J;
+				IBSC_MODULE = WhatsForDinner_WatchKit_Extension;
+				INFOPLIST_FILE = "WhatsForDinner WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NikonInstruments.WhatsForDinner.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		C0493A64262F9DF300CFEE8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7N92RGT66J;
+				IBSC_MODULE = WhatsForDinner_WatchKit_Extension;
+				INFOPLIST_FILE = "WhatsForDinner WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NikonInstruments.WhatsForDinner.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		C0493A67262F9DF300CFEE8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"WhatsForDinner/Preview Content\"";
+				DEVELOPMENT_TEAM = 7N92RGT66J;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = WhatsForDinner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NikonInstruments.WhatsForDinner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C0493A68262F9DF300CFEE8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"WhatsForDinner/Preview Content\"";
+				DEVELOPMENT_TEAM = 7N92RGT66J;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = WhatsForDinner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NikonInstruments.WhatsForDinner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0493A26262F9DEF00CFEE8E /* Build configuration list for PBXProject "WhatsForDinner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0493A5C262F9DF300CFEE8E /* Debug */,
+				C0493A5D262F9DF300CFEE8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0493A5E262F9DF300CFEE8E /* Build configuration list for PBXNativeTarget "WhatsForDinner WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0493A5F262F9DF300CFEE8E /* Debug */,
+				C0493A60262F9DF300CFEE8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0493A62262F9DF300CFEE8E /* Build configuration list for PBXNativeTarget "WhatsForDinner WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0493A63262F9DF300CFEE8E /* Debug */,
+				C0493A64262F9DF300CFEE8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0493A66262F9DF300CFEE8E /* Build configuration list for PBXNativeTarget "WhatsForDinner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0493A67262F9DF300CFEE8E /* Debug */,
+				C0493A68262F9DF300CFEE8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0493A23262F9DEF00CFEE8E /* Project object */;
+}
